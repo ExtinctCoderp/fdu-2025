@@ -4,6 +4,7 @@ import { useState } from "react"
 import { Moon, Sun, Menu, X } from "lucide-react"
 import { useTheme } from "next-themes"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export function Header() {
   const { theme, setTheme } = useTheme()
@@ -22,11 +23,14 @@ export function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">FDU</span>
+          <div className="flex items-center space-x-3">
+            <div className="relative w-10 h-10">
+              <Image src="/logo_fdu.jpeg" alt="FDU Logo" width={40} height={40} className="object-contain" priority />
             </div>
-            <span className="text-xl font-bold text-primary">FDU 2025</span>
+            <div className="flex flex-col">
+              <span className="text-lg font-bold text-primary leading-tight">FDU 2025</span>
+              <span className="text-xs text-muted-foreground leading-tight">Forum Diskusi Umat</span>
+            </div>
           </div>
 
           {/* Desktop Navigation */}

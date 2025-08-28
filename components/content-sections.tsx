@@ -224,7 +224,7 @@ export function ContentSections() {
             <div className="space-y-4">
               <h3 className="text-xl font-semibold">SMA Negeri 24 Bandung</h3>
               <p className="text-muted-foreground">
-                Jl. Buah Batu No.124, Cijagra, Kec. Lengkong, Kota Bandung, Jawa Barat 40265
+                Jl. AH. Nasution No.27, Pasir Endah, Kec. Ujung Berung, Kota Bandung, Jawa Barat 40619
               </p>
               <Badge variant="outline" className="text-primary border-primary">
                 ✅ Lokasi Strategis & Mudah Diakses

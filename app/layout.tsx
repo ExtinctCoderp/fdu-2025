@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: "Ajang Perlombaan Islami Tingkat SMP/MTs Sederajat | 04 Oktober 2025 | SMA Negeri 24 Bandung",
   generator: "v0.app",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/logo_fdu.jpeg",
   },
   keywords: ["FDU 2025", "Forum Diskusi Umat", "Lomba Islami", "SMP", "MTs", "Bandung"],
   openGraph: {
